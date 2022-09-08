@@ -60,3 +60,36 @@ nav ul li a::after{
 nav ul li a:hover::after{
     width: 50%;
 }
+/* text box style */
+.text-box{
+    color: #fff;
+    position: absolute;
+    bottom: 8%;
+}
+.text-box p{
+    font-size: 50px;
+    font-weight: 600;
+}
+.text-box h1{
+    font-size: 150px;
+    line-height: 160px;
+    margin-left: -10px;
+}
+.text-box h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.text-box .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.text-box a{
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-right: 20px;
+    border: 2px solid #fff;
+}
