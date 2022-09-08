@@ -71,10 +71,28 @@ nav ul li a:hover::after{
     font-weight: 600;
 }
 .text-box h1{
-    font-size: 150px;
+    font-size: 190px;
     line-height: 160px;
     margin-left: -10px;
+    color: transparent; /* mayra text edit   */
+    -webkit-text-stroke: 1px #fff;
+    background: url('../images/back.png');
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
 }
+/* animation */
+@keyframes back {
+    100%{
+        background-position: 2000px 0;
+    }
+    
+}
+
+
+
+
+
 .text-box h3{
     font-size: 30px;
     font-weight: 600;
@@ -92,4 +110,24 @@ nav ul li a:hover::after{
     padding: 10px 20px;
     margin-right: 20px;
     border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+}
+.text-box a span{
+    color: #fff;
+    font-size: 30px;
+    line-height: 15px;
+    margin-left: 5px;
+}
+
+/* social icon  */
+.social-icon{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+.social-icon img{
+    width: 25px;
+    display: block;
+    margin: 25px 5px;
 }
