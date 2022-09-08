@@ -28,9 +28,11 @@ nav{
 
 nav .logo{
     height: 80px ;
+    cursor: pointer;
 }
 .cart{
     height: 25px ;
+    cursor: pointer;
 }
 
 nav ul{
